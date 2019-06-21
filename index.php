@@ -15,7 +15,7 @@
         <option value='Moscow'>Москва</option>
         <option value='Saint Petersburg'>Санкт-Петербург</option>
         </select>
-    <input type='submit'/>
+    <input type='submit'>
   </form>
 <?php
 $qCity = $_GET["q"];
