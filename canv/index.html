@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        html, body {
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #anime {
+            display: none;
+        }
+
+    </style>
+
+</head>
+<body>
+    <canvas id="my_canvas"></canvas>
+    <img id="anime" src="1.png" alt="">
+
+    <script>
+        let canvas = document.querySelector('#my_canvas');
+
+        function renderCanvas() {
+            canvas.style.width = '400px';
+            canvas.style.height = '300px';
+                canvas.style.display = 'flex';
+
+            canvas.style.marginTop = '30px';
+            let context = canvas.getContext('2d');
+
+            // Заливка
+
+            let grd = context.createLinearGradient(0, 0, 400, 300);
+            grd.addColorStop(0, 'white');
+            grd.addColorStop(1, 'darkred');
+            context.fillStyle = grd;
+            context.fillRect(0, 0, 400, 300);
+
+            //Рисуем линии
+
+            context.beginPath();
+            context.moveTo(0, 0);
+            context.lineTo(400, 0);
+            context.moveTo(0, 300);
+            context.lineTo(400, 300);
+            context.stroke();
+
+            // Рисуем кругляш
+
+            context.beginPath();
+            context.arc(50, 50, 30, 0,  Math.PI, true);
+            context.stroke();
+
+            // Text
+
+            context.fillStyle = 'black';
+            context.font = '30px Arial';
+            context.fillText('Хеллоу', 10, 70);
+
+            // Img
+
+            let anim = document.getElementById('anime');
+            context.drawImage(anim, 50, 200)
+        }
+
+        renderCanvas();
+    </script>
+</body>
+</html>

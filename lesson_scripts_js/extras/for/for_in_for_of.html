@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        let a = [
+            [
+                {name: 'Mary', age: 23},
+                {name: 'Mike', age: 45},
+                {name: 'Nick', age: 11}
+            ],
+            [
+                {name: 'Adam', age: 56},
+                {name: 'Sara', age: 21},
+                {name: 'Don', age: 22}
+            ],
+            [
+                {name: 'Karl', age: 34},
+                {name: 'Marta', age: 76},
+                {name: 'John', age: 19}
+            ]
+        ];
+        let b = [];
+        b.unshift(a); // помещаем содержимое переменной a в переменную b
+        //
+        // for (let val in b[0][0][0]) { // for in - гуляет по объектам
+        //     console.log(val)
+        // }
+
+        for (let val in b[0][0]) { // for of - гуляет по массивам
+            document.write('<p>'
+                        + b[0][0][val]['name']
+                        + ' '
+                        + b[0][0][val]['age']
+                        + '</p>');
+
+        }
+        for (let val in b[0][0]) { // for of - гуляет по массивам
+            document.write('<p>'
+                + b[0][1][val]['name']
+                + ' '
+                + b[0][1][val]['age']
+                + '</p>');
+        }
+        for (let val in b[0][0]) { // for of - гуляет по массивам
+            document.write('<p>'
+                + b[0][2][val]['name']
+                + ' '
+                + b[0][2][val]['age']
+                + '</p>');
+        }
+
+        // for (let val of b[0][0]) { // for of - гуляет по массивам
+        //     for (let val in b[0][0]) { // for in - гуляет по объектам
+        //         console.log(b[val])
+        //     }
+        //
+        // }
+
+    </script>
+</body>
+</html>
