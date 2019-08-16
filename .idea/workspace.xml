@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbbea88d-16e4-4abb-8838-ea5fced12aa7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_scripts_js/scripts_functions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/player/player.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_script_php/weather_api/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts_func.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_scripts_js/scripts_func.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts_login_form.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_scripts_js/scripts_login_form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts_recurse.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_scripts_js/scripts_recurse.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/store/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/store/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/store/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -136,7 +129,8 @@
       <workItem from="1565705711150" duration="90000" />
       <workItem from="1565773531216" duration="6589000" />
       <workItem from="1565788238488" duration="929000" />
-      <workItem from="1565866838997" duration="1703000" />
+      <workItem from="1565866838997" duration="2235000" />
+      <workItem from="1565943217994" duration="6971000" />
     </task>
     <servers />
   </component>

@@ -1,13 +1,48 @@
 html, body {
     margin: 0;
+    height: 100%;
     cursor: url('cursor.gif'), auto;
 }
 
+header {
+    width: 100%;
+    height: 60px;
+    background: coral;
+}
+
+.bucketSumm {
+    height: 40px;
+    width: 100%;
+    background: #03A9F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+main {
+    width: 100%;
+    min-height: calc(100% - 250px);
+}
+
 #cart_content {
-    background: #82abbd;
-    height: 100%;
-    min-width: 100%;
-    float: left;
+    background: #efefef;
+    min-height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.set_counts {
+    width: 100%;
+    height: 40px;
+    background: lavender;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .item_box {
@@ -17,8 +52,6 @@ html, body {
     height: 400px;
     margin: 10px;
     border-radius: 4px;
-    float: left;
-    position: inherit;
 }
 
 .image_box {
@@ -36,3 +69,8 @@ html, body {
     text-align: center;
 }
 
+footer {
+    min-height: 150px;
+    background: #3f3f3f;
+    width: 100%;
+}
